@@ -1,0 +1,68 @@
+.crossOut {
+	text-decoration: line-through;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 8px;
+	box-sizing: border-box;
+
+	border: 2px solid gray;
+	border-radius: 4px;
+}
+
+input[type=text]:focus {
+	border: 3px solid #555;
+}
+
+#add {
+	background-color: lightsteelblue;
+	padding: 10px 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: darkslategrey;
+}
+label {
+	color: teal;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+ul li {
+	background: linen;
+	margin: 10px;
+	font-size: 25px;
+}
+ul li:hover {
+	background-color: lightgoldenrodyellow;
+	opacity: 2;
+	transition: 1s;
+}
+
+#removeBtn {
+	display: none;
+}
+
+ul li:hover #removeBtn {
+	display: inline;
+	border: gainsboro;
+	font-size: 18px;
+	background-color: transparent;
+}
+
+h1 {
+	color: lightsteelblue;
+	text-align: center;
+}
+
+h2 {
+	color: teal;
+	font-weight: bold;
+	font-size: 20px;
+}
